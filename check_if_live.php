@@ -25,7 +25,7 @@ $row = 1;
 $theArray = array();
 $results = array(array("URL","STATUS"));
 
-if (($handle = fopen("./files/Aptum-domains-list.csv", "r")) !== FALSE) {
+if (($handle = fopen("./files/aptum-domains-list.csv", "r")) !== FALSE) {
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
 
 
